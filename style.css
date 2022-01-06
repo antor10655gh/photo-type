@@ -215,6 +215,14 @@ body {
     text-align: center;
 }
 
+.our-community-content1 h4 {
+    text-transform: uppercase;
+}
+
+.our-community-content1 span {
+    color: rgb(7, 209, 209);
+}
+
 .our-community-content1 p {
     padding: 0px 50px;
 }
@@ -246,6 +254,8 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .subscribe-community-main h2 {
@@ -286,4 +296,133 @@ body {
     font-size: 15px;
     font-weight: 600;
     word-spacing: 5px;
+}
+
+.button {
+    display: flex;
+    height: 40px;
+    padding: 0;
+    background: rgb(7, 209, 209);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(7, 179, 209);
+}
+
+.button:active {
+    background: rgb(7, 209, 209);
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.download-it {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(245, 243, 243);
+}
+
+.download-it h1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.download-it p {
+    padding: 0px 100px;
+    padding-bottom: 30px;
+}
+
+.download-it span {
+    text-transform: uppercase;
+}
+
+#it {
+    color: rgb(7, 209, 209);
+    padding-left: 8px;
+}
+
+.download-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.download-button {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+#apple-btn {
+    float: right;
+    margin-right: 10px;
+}
+
+#play-btn {
+    margin-left: 10px;
+}
+
+.footer-main {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    padding: 0 30px;
+}
+
+.footer-left ul {}
+
+.footer-left ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.footer-left ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-right: 1px solid;
+    border-image: linear-gradient(to bottom, rgb(0, 195, 255), rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.footer-left ul li a:hover {
+    color: rgb(0, 195, 255);
+}
+
+.footer-left p {
+    padding-left: 55px;
+}
+
+#c-menu {
+    border-right: none;
+}
+
+.footer-right img {
+    position: absolute;
+    right: 100px;
+    padding-top: 20px;
 }
