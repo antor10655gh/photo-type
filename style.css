@@ -225,6 +225,7 @@ body {
 
 .our-community-content1 p {
     padding: 0px 50px;
+    color: darkgray;
 }
 
 .our-community-content2 {
@@ -350,6 +351,7 @@ body {
 .download-it p {
     padding: 0px 100px;
     padding-bottom: 30px;
+    color: darkgray;
 }
 
 .download-it span {
@@ -415,6 +417,7 @@ body {
 
 .footer-left p {
     padding-left: 55px;
+    color: darkgray;
 }
 
 #c-menu {
